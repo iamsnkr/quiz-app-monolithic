@@ -1,17 +1,19 @@
-Features
+**Features**
 
 Create quizzes with specified category, number of questions, and title.
 Add, update, and delete individual questions.
 Retrieve details of all questions.
 Get a specific quiz by its ID.
 Submit a quiz with answers.
-API Endpoints
 
-Adding Questions
+**API Endpoints**
 
+**##Adding Questions**
+```
 POST http://localhost:8080/quiz/add
-Use this endpoint to add a new question to the system. (details on specific data format required for the questions are to be specified based on the actual implementation)
-Deleting Questions
+Use this endpoint to add a new question to the system.
+```
+**Deleting Questions**
 
 DELETE http://localhost:8080/quiz/delete/{question_id}
 Replace {question_id} with the unique identifier of the question you want to delete.
