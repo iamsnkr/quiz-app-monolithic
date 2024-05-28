@@ -49,5 +49,4 @@ Replace {quiz_id} with the unique identifier of the quiz you are submitting.
 ```
 **Additional Notes**
 
-Refer to the application documentation (if available) for specific details on data formats required for requests and responses.
-Authentication might be required for some endpoints (depending on the application's security setup).
+Refer to the postman collection ```**Quiz-Rest-API.postman_collection.json**``` for specific details on data formats required for requests and responses.
